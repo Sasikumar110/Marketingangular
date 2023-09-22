@@ -1,0 +1,47 @@
+#backgroundimage
+{
+    width: 100%;
+    height: 50%;
+}
+
+h1{
+    position: absolute;
+    left: 400px;
+    bottom: 280px;
+    color: yellow;
+    font-size: 100px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h2{
+    position: absolute;
+    left: 300px;
+    bottom:150px;
+    color: yellow;
+    font-size: 110px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#logoimage
+{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:60px;
+    bottom: 480px;
+    color: black;
+}
+
+#imagesfor
+{
+    background-color: black;
+}
+
+#menubar
+{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 530px;
+    right: 50px;
+}
+

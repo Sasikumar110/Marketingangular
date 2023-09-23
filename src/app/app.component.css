@@ -61,3 +61,91 @@ h2{
     left: 100px;
   }
 
+  #showcase
+{
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  width: 300px;
+  height: 723px;
+  border:10px;
+}
+
+#cancelred
+{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+#menuvalues
+{
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: yellow;
+}
+
+.text-white
+{
+    border-radius: 20px;
+}
+
+#menubarval
+{
+ width: 200px;
+ position: absolute;
+ top: 50px;
+ text-align: center;
+ text-decoration: yellow;
+}
+
+#showcase
+{
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  width: 300px;
+  height: 723px;
+  border:10px;
+}
+
+#cancelred
+{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+
+#menuvalues
+{
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: yellow;
+}
+
+.text-white
+{
+    border-radius: 20px;
+}
+
+#menubarval
+{
+ width: 200px;
+ position: absolute;
+ top: 50px;
+ text-align: center;
+ text-decoration: yellow;
+}
+
+
+

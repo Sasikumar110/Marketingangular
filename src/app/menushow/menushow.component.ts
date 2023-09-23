@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenushowComponent implements OnInit {
 
+  menuclose=true;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  menuclosebu()
+  {
+    this.menuclose=false;
   }
 
 }

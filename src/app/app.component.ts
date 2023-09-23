@@ -11,11 +11,19 @@ export class AppComponent {
   title = 'marketingangular';
   display=false;
   bacdisplay=true;
+  menupopen=false
+  menuclose=true;
  
 menuclick()
 {
-this.display=true
-this.bacdisplay=false
+// this.display=true
+// this.bacdisplay=false
+this.menupopen=true;
+}
+
+menuclosebu()
+{
+this.menupopen=false;
 }
 
 public slides = [

@@ -1,6 +1,6 @@
-<div class="card-deck" id="showcase">
+<div class="card-deck" id="showcase" *ngIf="menuclose">
     <div class="card bg-dark">
-        <img src="../../assets/cancelred.png" alt="" id="cancelred">
+        <img src="../../assets/cancelred.png" alt="" id="cancelred" (click)="menuclosebu()">
         <div id="menuvalues">
             <div id="menubarval">
                 <div class="p-3 mb-2 bg-success text-white">Home</div>

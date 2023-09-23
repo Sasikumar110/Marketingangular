@@ -3,16 +3,34 @@
   <img src="../assets/LOGO-1.jpg" alt="" id="logoimage">
   <h1>SRK EVENT</h1>
   <h2>MANAGEMENT</h2>
-  <img src="../assets/hamburger.png" id="menubar">
+  <img src="../assets/hamburger.png" id="menubar" (click)="menuclick()">
 </div>
-<div *ngIf="display">
+<!-- <div *ngIf="display">
   <app-home></app-home>
-</div>
+</div> -->
 <!-- <div class="scroller">
   <app-menudisplaying></app-menudisplaying>
 </div> -->
-<div>
-  <app-menushow></app-menushow>
+<div *ngIf="menupopen">
+  <div class="card-deck" id="showcase">
+    <div class="card bg-dark">
+      <div id="menuvalues">
+        <img src="../../assets/cancelred.png" alt="" id="cancelred" (click)="menuclosebu()">
+        <div id="menubarval">
+                <div class="p-3 mb-2 bg-success text-white">Home</div>
+                <div class="p-3 mb-2 bg-success text-white">About Us</div>
+                <div class="p-3 mb-2 bg-success text-white">Event Manpower</div>
+                <div class="p-3 mb-2 bg-success text-white">Catering Service</div>
+                <div class="p-3 mb-2 bg-success text-white">Digital Advertising</div>
+                <div class="p-3 mb-2 bg-success text-white">Ballon Decoration</div>
+                <div class="p-3 mb-2 bg-success text-white">Birthday Event</div>
+                <div class="p-3 mb-2 bg-success text-white">Wedding Event</div>
+                <div class="p-3 mb-2 bg-success text-white">Corporate Event</div>
+                <div class="p-3 mb-2 bg-success text-white">Bridal Makeup</div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <!-- <div class="container">
   <carousel [slides]="slides"></carousel>
